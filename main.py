@@ -41,20 +41,23 @@ class Attendance:
             print(group)
             
 
-group1 = Group('Python Class')
-group2 = Group('Java Class')
 
-attendance = Attendance()
-attendance.add_group(group1)
-attendance.add_group(group2)
+if __name__ == '__main__':
 
-user1 = User('John', 123456)
-user2 = User('James', 123456)
-response = attendance.add_user_to_group(group1, user1)
-response2 = attendance.add_user_to_group(group1, user2)
-response2 = attendance.add_user_to_group(group2, user2)
-print(response)
-print(response2)
+    group1 = Group('Python Class')
+    group2 = Group('Java Class')
+
+    attendance = Attendance()
+    attendance.add_group(group1)
+    attendance.add_group(group2)
+
+    user1 = User('John', 123456)
+    user2 = User('James', 123456)
+    response = attendance.add_user_to_group(group1, user1)
+    response2 = attendance.add_user_to_group(group1, user2)
+    response2 = attendance.add_user_to_group(group2, user2)
+    print(response)
+    print(response2)
 
 
 
