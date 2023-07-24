@@ -43,7 +43,7 @@ class Attendance:
 
 
 if __name__ == '__main__':
-
+ 
     group1 = Group('Python Class')
     group2 = Group('Java Class')
 

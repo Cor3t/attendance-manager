@@ -1,0 +1,37 @@
+ ALGORITHM FOR ATTENDANCE SYSTEM
+1. Initialize an empty attendance record for each student.
+2. Display a menu of options for the admin:
+   - Add a new student
+   - Mark attendance for a student
+   - View attendance for a student
+   - Generate attendance report
+   - Exit the program
+
+3. If the admin selects "Add a new student":
+   - Prompt the admin to enter the student's name and ID.
+   - Create a new student record with the provided information and add it to the attendance system.
+
+4. If the admin selects "Mark attendance for a student":
+   - Prompt the admin to enter the student's ID.
+   - Check if the student exists in the attendance system.
+   - If the student exists:
+     - Prompt the admin to enter the date and mark the student as present for that day in their attendance record.
+   - If the student doesn't exist, display an error message.
+
+5. If the admin selects "View attendance for a student":
+   - Prompt the admin to enter the student's ID.
+   - Check if the student exists in the attendance system.
+   - If the student exists:
+     - Display the attendance record for that student, showing the dates and whether they were present or absent.
+   - If the student doesn't exist, display an error message.
+
+6. If the admin selects "Generate attendance report":
+   - Prompt the admin to enter a date range for the report.
+   - Iterate through each student in the attendance system:
+     - Retrieve the attendance record for each student within the specified date range.
+     - Calculate the attendance percentage for each student.
+     - Display a report showing the student name, ID, and attendance percentage.
+
+7. If the admin selects "Exit the program", terminate the program.
+
+8. After each operation, return to the main menu and allow the admin to choose another option.
