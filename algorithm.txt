@@ -1,4 +1,4 @@
- ALGORITHM FOR ATTENDANCE SYSTEM
+ALGORITHM FOR ATTENDANCE SYSTEM
 1. Initialize an empty attendance record for each student.
 2. Display a menu of options for the admin:
    - Add a new student
